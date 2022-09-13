@@ -21,6 +21,9 @@ module.exports = (sequelize) => {
           min: 1,
         },
         allowNull: false
+      },
+      img: {
+        type: DataTypes.STRING
       }
     },
     { timestamps: false }
